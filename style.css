@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: "Bubble";
+    src: url("./Daily\ Bubble.ttf");
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right top, #2FC9FD, #0319E7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section{
+    display: grid;
+    place-items: center;
+}
+
+.Heading{
+    margin-bottom: 3rem;
+}
+
+h1{
+    
+    font-family: "Bubble";
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    text-shadow: 2px 2px 1px black;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-family: "Urbanist", serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+.Buttons{
+    margin-bottom: 2rem;
+}
+
+.HexBtn1{
+    padding: 0.5rem 2rem;
+    border-radius: 1.5rem;
+    border: 0.1rem solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.579);
+    background-color: #2FC9FD;
+    color: white;
+    font-family: "Urbanist", serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.HexBtn2{
+    padding: 0.5rem 2rem;
+    border-radius: 1.5rem;
+    border: 0.1rem solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.579);
+    background-color: #0319E7;
+    margin-left: 1rem;
+    color: white;
+    font-family: "Urbanist", serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+h2{
+    font-family: "Urbanist", serif;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.copycode{
+    width: 35rem;
+    background-color: rgba(255, 255, 255, 0.183);
+    font-family: "Urbanist", serif;
+    color: white;
+    padding: 1rem;
+    margin-top: 1.2rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    border-left: 0.2rem solid white;
+    cursor: copy;
+}
+
+.copycode:hover{
+    box-shadow : 2px 2px 5px rgba(0, 0, 0, 0.378);
+}
+
+.Btn{
+    margin-top: 1rem;
+}
+
+#Btn1, #Btn2, #Btn3, #Btn4, #Btn5
+{
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    color: white;
+    border: none;
+    background: rgba(255, 255, 255, 0.171);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#Btn1:hover, #Btn2:hover, #Btn3:hover, #Btn4:hover, #Btn5:hover
+{
+    background-color: rgba(255, 255, 255, 0.509);
+}
+
+
+
+
+
+
+
+
+
+
+
+
